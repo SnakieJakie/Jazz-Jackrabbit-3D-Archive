@@ -1,0 +1,713 @@
+Log: Log file open, 06/12/99 02:19:10
+Init: Name subsystem initialized
+Init: Detected: Microsoft Windows 98 4.10 (Build: 67766222)
+Init: Version: 224
+Init: Compiled: May  1 1999 17:57:07
+Init: Command line: 
+Init: Base directory: D:\JAZZ224\SYSTEM\
+Init: Character set: Unicode
+Log: Bound to Editor.dll
+Log: Bound to Core.dll
+Log: Bound to Engine.dll
+Log: Bound to Window.dll
+Init: Object subsystem initialized
+Init: Memory total: Phys=130580K Pagef=305016K Virt=2093056K
+Init: Working set: 0 / 0
+Init: CPU Speed=400.897480 MHz
+Init: CPU Page size=4096, Processors=1
+Init: CPU Detected: Pentium-class processor (AuthenticAMD)
+Init: CPU Features: MMX FPU TimeStamp 3DNow!
+Log: Loading: Package Editor
+Log: Loading: Package Core
+Log: Loading: Package Engine
+Log: Bound to Galaxy.dll
+Init: Galaxy is using DirectSound
+Init: Galaxy initialized
+Init: Unreal engine initialized
+Init: Transaction tracking system initialized
+Log: Loading: Package JazzFonts
+Log: Bound to Fire.dll
+Log: Loading: Package Fire
+Log: Bound to IpDrv.dll
+Log: Loading: Package IpDrv
+Log: Loading: Package IpServer
+Log: Loading: Package JazzSounds
+Log: Loading: Package JazzSpeech
+Log: Loading: Package JazzArt
+Log: Loading: Package JazzObjectoids
+Log: Loading: Package JazzDecoration
+Log: Loading: Package JWindow
+Log: Loading: Package JazzConsole
+Log: Loading: Package CalyGame
+Log: Loading: Package JazzAnimated
+Log: Loading: Package JazzMultiPlayer
+Log: Loading: Package Jazz3
+Log: Loading: Package JazzyTextures
+Log: Loading: Package JazzEnemy
+Log: Loading: Package JazzPlatform
+Log: Loading: Package JazzRace
+Log: Loading: Package DudeGame
+Log: Bound to WinDrv.dll
+Init: Mouse info: 2 0 1
+Init: Client initialized
+Log: Bound to Render.dll
+Init: Lighting subsystem initialized
+Init: Rendering initialized
+Init: Editor engine initialized
+Log: Startup time: 27.943061 seconds
+Cmd: APP SET ProgressBar=3876 ProgressText=4028
+Cmd: APP HIDE
+Cmd: MAP GRID X=16 Y=16 Z=16 BASE=ABSOLUTE SHOW2D=ON SHOW3D=OFF
+Cmd: MAP ROTGRID PITCH=4 YAW=4 ROLL=4
+Cmd: MODE CAMERAMOVE GRID=ON ROTGRID=ON SNAPTOPIVOT=ON SNAPDIST=10
+Cmd: CAMERA OPEN HWND=1172 X=0 Y=0 XR=486 YR=335 FLAGS=1737 REN=13 NAME="Standard1V"
+Init: Input system initialized for Standard1V
+Log: Opened viewport
+Log: Bound to SoftDrv.dll
+Cmd: SETPAUSE 0
+Cmd: CAMERA OPEN HWND=1172 X=495 Y=0 XR=250 YR=335 FLAGS=1737 REN=14 NAME="Standard2V"
+Init: Input system initialized for Standard2V
+Log: Opened viewport
+Cmd: SETPAUSE 1
+Cmd: SETPAUSE 0
+Cmd: CAMERA OPEN HWND=1172 X=0 Y=345 XR=486 YR=334 FLAGS=1993 REN=5 NAME="Standard3V"
+Init: Input system initialized for Standard3V
+Log: Opened viewport
+Cmd: SETPAUSE 1
+Cmd: SETPAUSE 0
+DevAudio: Galaxy SetViewport: Standard3V
+Cmd: CAMERA OPEN HWND=1172 X=495 Y=345 XR=250 YR=334 FLAGS=1737 REN=15 NAME="Standard4V"
+Init: Input system initialized for Standard4V
+Log: Opened viewport
+Cmd: SETPAUSE 1
+Cmd: SETPAUSE 0
+Cmd: SETPAUSE 1
+Cmd: MODE CAMERAMOVE
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Log: BspValidateBrush linked 0 of 6 polys
+Cmd: BRUSH SUBTRACT
+Log: bspBuild built 6 convex polys into 6 nodes
+Log: bspBuildBounds: Generated 5 bounds, 60 hulls
+Cmd: SETPAUSE 0
+Cmd: Fire
+Cmd: AltFire
+Cmd: MaybeAutoSave
+Cmd: SETPAUSE 1
+Cmd: MODE BRUSHSCALE
+Cmd: SETPAUSE 0
+Cmd: Fire
+Cmd: AltFire
+Cmd: Fire
+Cmd: AltFire
+Cmd: Fire
+Cmd: SETPAUSE 1
+Cmd: BRUSH ADD
+Log: bspBuild built 6 convex polys into 6 nodes
+Log: bspBuildBounds: Generated 9 bounds, 73 hulls
+Cmd: SETPAUSE 0
+Cmd: AltFire
+Cmd: Fire
+Cmd: SETPAUSE 1
+Cmd: TRANSACTION UNDO
+Log: Undo Brush Add
+Log: bspBuildBounds: Generated 5 bounds, 60 hulls
+Cmd: MODE BRUSHSTRETCH
+Cmd: SETPAUSE 0
+Cmd: Fire
+Cmd: AltFire
+Cmd: SETPAUSE 1
+Cmd: BRUSH ADD
+Log: bspBuild built 6 convex polys into 6 nodes
+Log: bspBuildBounds: Generated 7 bounds, 73 hulls
+Cmd: SETPAUSE 0
+Cmd: Fire
+Cmd: SETPAUSE 1
+Cmd: BRUSH ADD
+Log: bspBuild built 6 convex polys into 6 nodes
+Log: bspBuildBounds: Generated 8 bounds, 86 hulls
+Cmd: SETPAUSE 0
+Cmd: Fire
+Cmd: SETPAUSE 1
+Cmd: BRUSH ADD
+Log: bspBuild built 6 convex polys into 6 nodes
+Log: bspBuildBounds: Generated 9 bounds, 99 hulls
+Cmd: SETPAUSE 0
+Cmd: Fire
+Cmd: SETPAUSE 1
+Cmd: BRUSH ADD
+Log: bspBuild built 6 convex polys into 6 nodes
+Log: bspBuildBounds: Generated 10 bounds, 112 hulls
+Cmd: SETPAUSE 0
+Cmd: Fire
+Cmd: AltFire
+Cmd: AltFire
+Cmd: Fire
+Cmd: Fire
+Cmd: AltFire
+Cmd: Fire
+Cmd: SETPAUSE 1
+Cmd: SETPAUSE 0
+Cmd: Fire
+Cmd: AltFire
+Cmd: Fire
+Cmd: Fire
+Cmd: AltFire
+Cmd: Fire
+Cmd: Fire
+Cmd: AltFire
+Cmd: MaybeAutoSave
+Cmd: SETPAUSE 1
+Cmd: BRUSH SUBTRACT
+Log: bspBuild built 6 convex polys into 6 nodes
+Log: bspBuildBounds: Generated 14 bounds, 160 hulls
+Cmd: SETPAUSE 0
+Cmd: Fire
+Cmd: Fire
+Cmd: SETPAUSE 1
+Cmd: SETPAUSE 0
+Cmd: Fire
+Cmd: SETPAUSE 1
+Cmd: MODE BRUSHSHEER
+Cmd: SETPAUSE 0
+Cmd: Fire
+Cmd: AltFire
+Cmd: SETPAUSE 1
+Cmd: TRANSACTION UNDO
+Log: Undo Actor movement
+Cmd: SETPAUSE 0
+Cmd: Fire
+Cmd: SETPAUSE 1
+Cmd: MODE BRUSHSTRETCH
+Cmd: SETPAUSE 0
+Cmd: Fire
+Cmd: AltFire
+Cmd: AltFire
+Cmd: AltFire
+Cmd: Fire
+Cmd: SETPAUSE 1
+Cmd: MAP REBUILD
+Log: bspBuild built 6 convex polys into 6 nodes
+Log: bspBuild built 6 convex polys into 6 nodes
+Log: bspBuild built 6 convex polys into 6 nodes
+Log: bspBuild built 6 convex polys into 6 nodes
+Log: bspBuild built 6 convex polys into 6 nodes
+Log: bspBuild built 6 convex polys into 6 nodes
+Log: Found 8 coplanar sets in 30
+Log: BspMergeCoplanars reduced 30->30
+Log: Polys: 20 -> 20
+Log: Nodes: 48 -> 30
+Log: Points: 122 -> 19
+Log: Vectors: 15 -> 15
+Log: Polys: 20 -> 20
+Log: Nodes: 30 -> 30
+Log: Points: 87 -> 87
+Log: Vectors: 15 -> 15
+Log: bspBuildBounds: Generated 21 bounds, 236 hulls
+Log: bspBuild built 30 convex polys into 30 nodes
+Log: Polys: 20 -> 20
+Log: Nodes: 30 -> 30
+Log: Points: 87 -> 87
+Log: Vectors: 15 -> 15
+Log: Found 1 zones
+Log: Polys: 20 -> 20
+Log: Nodes: 60 -> 30
+Log: Points: 87 -> 87
+Log: Vectors: 15 -> 15
+Log: bspBuildBounds: Generated 21 bounds, 236 hulls
+Log: BuildZoneInfo: 0 ZoneInfo actors, 0 duplicates, 0 zoneless
+Log: Portalized: 4 portals, 0 zone portals (0 fragments), 5 leaves, 30 nodes
+Log: BspOptGeom begin
+Log: MergeNearPoints merged 38/87, collapsed 0
+Log: Polys: 20 -> 20
+Log: Nodes: 30 -> 30
+Log: Points: 87 -> 49
+Log: Vectors: 15 -> 15
+Log: BspOptGeom building sidelinks
+Log: BspOptGeom end
+Log: Processed 16 T-points, linked: 136/136 sides
+Log: bspBuildBounds: Generated 21 bounds, 236 hulls
+Cmd: BSP REBUILD GOOD BALANCE=15 ZONES OPTGEOM
+Log: Bsp Rebuild
+Log: Found 8 coplanar sets in 30
+Log: BspMergeCoplanars reduced 30->30
+Log: Polys: 20 -> 20
+Log: Nodes: 30 -> 30
+Log: Points: 49 -> 18
+Log: Vectors: 15 -> 15
+Log: Polys: 20 -> 20
+Log: Nodes: 30 -> 30
+Log: Points: 49 -> 49
+Log: Vectors: 15 -> 15
+Log: bspBuildBounds: Generated 21 bounds, 236 hulls
+Log: bspBuild built 30 convex polys into 30 nodes
+Log: Found 1 zones
+Log: Polys: 20 -> 20
+Log: Nodes: 68 -> 30
+Log: Points: 57 -> 49
+Log: Vectors: 15 -> 15
+Log: bspBuildBounds: Generated 21 bounds, 236 hulls
+Log: BuildZoneInfo: 0 ZoneInfo actors, 0 duplicates, 0 zoneless
+Log: Portalized: 4 portals, 0 zone portals (0 fragments), 5 leaves, 30 nodes
+Log: BspOptGeom begin
+Log: MergeNearPoints merged 0/49, collapsed 0
+Log: Polys: 20 -> 20
+Log: Nodes: 30 -> 30
+Log: Points: 49 -> 49
+Log: Vectors: 15 -> 15
+Log: BspOptGeom building sidelinks
+Log: BspOptGeom end
+Log: Processed 16 T-points, linked: 136/136 sides
+Cmd: LIGHT APPLY SELECTED=off
+Init: Initialized moving brush tracker for Level MyLevel.MyLevel
+Init: Input system initialized for WindowsViewport0
+Log: Opened temporary viewport
+Log: Occluded 0 views in 0.000617 sec (1.#INF00 msec per light)
+Init: Shut down moving brush tracker for Level MyLevel.MyLevel
+Log: 0 Lights, 20 Polys, 0 Pairs, 0 Rays
+Cmd: SETPAUSE 0
+Cmd: Fire
+Cmd: AltFire
+Cmd: AltFire
+Cmd: SETPAUSE 1
+Cmd: SETPAUSE 0
+Cmd: Fire
+Cmd: AltFire
+Cmd: Fire
+Cmd: AltFire
+Cmd: Fire
+Cmd: Fire
+Cmd: Fire
+Cmd: AltFire
+Cmd: Fire
+Cmd: MaybeAutoSave
+Cmd: SETPAUSE 1
+Cmd: BRUSH SUBTRACT
+Log: bspBuild built 6 convex polys into 6 nodes
+Log: bspBuildBounds: Generated 31 bounds, 352 hulls
+Cmd: SETPAUSE 0
+Cmd: Fire
+Cmd: AltFire
+Cmd: AltFire
+Cmd: SETPAUSE 1
+Cmd: SETPAUSE 0
+Cmd: AltFire
+Cmd: Fire
+Cmd: AltFire
+Cmd: Fire
+Cmd: Fire
+Cmd: AltFire
+Cmd: Fire
+Cmd: AltFire
+Cmd: SETPAUSE 1
+Cmd: BRUSH ADD
+Log: bspBuild built 6 convex polys into 6 nodes
+Log: bspBuildBounds: Generated 36 bounds, 378 hulls
+Cmd: SETPAUSE 0
+Cmd: Fire
+Cmd: SETPAUSE 1
+Cmd: BRUSH ADD
+Log: bspBuild built 6 convex polys into 6 nodes
+Log: bspBuildBounds: Generated 39 bounds, 404 hulls
+Cmd: SETPAUSE 0
+Cmd: Fire
+Cmd: AltFire
+Cmd: Fire
+Cmd: SETPAUSE 1
+Cmd: MAP SAVE FILE="D:\Jazz224\Maps\MineShaft.unr"
+Log: Save=181.591491
+Log: Moving 'D:\Jazz224\Maps\Save.tmp' to 'D:\Jazz224\Maps\MineShaft.unr'
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: SETPAUSE 0
+Cmd: Fire
+Cmd: AltFire
+Cmd: AltFire
+Cmd: SETPAUSE 1
+Cmd: MAP LOAD FILE="D:\Jazz224\Maps\DevonVille.unr" REDRAW=OFF
+Log: New File, Existing Package (Package MyLevel, Package DevonVille)
+Log: Loading: Package MyLevel
+Log: Loading: Package Jazzytextures2
+DevAudio: Galaxy SetViewport: Standard3V
+Log: Collecting garbage
+Log: Purging garbage
+Cmd: CAMERA OPEN HWND=1172 X=0 Y=0 XR=356 YR=335 NAME="Standard1V"
+Cmd: CAMERA OPEN HWND=1172 X=365 Y=0 XR=380 YR=335 NAME="Standard2V"
+Cmd: CAMERA OPEN HWND=1172 X=0 Y=345 XR=356 YR=334 NAME="Standard3V"
+DevAudio: Galaxy SetViewport: Standard3V
+Cmd: CAMERA OPEN HWND=1172 X=365 Y=345 XR=380 YR=334 NAME="Standard4V"
+Cmd: SETPAUSE 0
+Cmd: AltFire
+Cmd: AltFire
+Cmd: Fire
+Cmd: Fire
+Cmd: AltFire
+Cmd: MaybeAutoSave
+Cmd: SETPAUSE 1
+Cmd: CAMERA Update NAME=MeshViewCam X=0 Y=0 MESH="airboard" REN=18 FLAGS=8704 HWND=3072 MISC1=000 MISC2=0
+Init: Input system initialized for MeshViewCam
+Log: Opened viewport
+Cmd: SETPAUSE 0
+Cmd: CAMERA Update NAME=MeshViewCam X=0 Y=0 MESH="airboard" REN=18 FLAGS=8704 HWND=3072 MISC1=000 MISC2=0
+Cmd: CAMERA Update NAME=MeshViewCam X=0 Y=0 MESH="airboard" REN=18 FLAGS=8704 HWND=3072 MISC1=000 MISC2=0
+Cmd: CAMERA Open NAME=MeshViewCam X=0 Y=0 MESH="airboard" REN=18 FLAGS=8704 HWND=3072 MISC1=000 MISC2=0 XR=292 YR=358
+Cmd: SETPAUSE 1
+Cmd: CAMERA Update NAME=MeshViewCam X=0 Y=0 MESH="exball" REN=18 FLAGS=8704 HWND=3072 MISC1=000 MISC2=0
+Cmd: CAMERA Update NAME=MeshViewCam X=0 Y=0 MESH="exball" REN=18 FLAGS=8704 HWND=3072 MISC1=000 MISC2=0
+Cmd: CAMERA Update NAME=MeshViewCam X=0 Y=0 MESH="expoint" REN=18 FLAGS=8704 HWND=3072 MISC1=000 MISC2=0
+Cmd: CAMERA Update NAME=MeshViewCam X=0 Y=0 MESH="expoint" REN=18 FLAGS=8704 HWND=3072 MISC1=000 MISC2=0
+Cmd: SETPAUSE 0
+Cmd: AltFire
+Cmd: SETPAUSE 1
+Cmd: CAMERA Update NAME=MeshViewCam X=0 Y=0 MESH="expring" REN=18 FLAGS=8704 HWND=3072 MISC1=000 MISC2=0
+Cmd: CAMERA Update NAME=MeshViewCam X=0 Y=0 MESH="expring" REN=18 FLAGS=8704 HWND=3072 MISC1=000 MISC2=0
+Cmd: SETPAUSE 0
+Cmd: AltFire
+Cmd: Fire
+Cmd: AltFire
+Cmd: Fire
+Cmd: SETPAUSE 1
+Cmd: CAMERA Update NAME=MeshViewCam X=0 Y=0 MESH="fireblast" REN=18 FLAGS=8704 HWND=3072 MISC1=000 MISC2=0
+Cmd: CAMERA Update NAME=MeshViewCam X=0 Y=0 MESH="fireblast" REN=18 FLAGS=8704 HWND=3072 MISC1=000 MISC2=0
+Cmd: CAMERA Update NAME=MeshViewCam X=0 Y=0 MESH="fireblast" REN=18 FLAGS=8704 HWND=3072 MISC1=000 MISC2=0
+Cmd: CAMERA Update NAME=MeshViewCam X=0 Y=0 MESH="fireblast" REN=18 FLAGS=8704 HWND=3072 MISC1=000 MISC2=0
+Cmd: SETPAUSE 0
+Cmd: AltFire
+Cmd: MaybeAutoSave
+Cmd: Fire
+Cmd: AltFire
+Cmd: Fire
+Cmd: AltFire
+Cmd: SETPAUSE 1
+Cmd: CAMERA Update NAME=MeshViewCam X=0 Y=0 MESH="Jazz" REN=18 FLAGS=8704 HWND=3072 MISC1=000 MISC2=0
+Cmd: CAMERA Update NAME=MeshViewCam X=0 Y=0 MESH="Jazz" REN=18 FLAGS=8704 HWND=3072 MISC1=000 MISC2=0
+Cmd: CAMERA Update NAME=MeshViewCam X=0 Y=0 MESH="powerup1" REN=18 FLAGS=8704 HWND=3072 MISC1=000 MISC2=0
+Cmd: CAMERA Update NAME=MeshViewCam X=0 Y=0 MESH="powerup1" REN=18 FLAGS=8704 HWND=3072 MISC1=000 MISC2=0
+Cmd: CAMERA Update NAME=MeshViewCam X=0 Y=0 MESH="qumark" REN=18 FLAGS=8704 HWND=3072 MISC1=000 MISC2=0
+Cmd: CAMERA Update NAME=MeshViewCam X=0 Y=0 MESH="qumark" REN=18 FLAGS=8704 HWND=3072 MISC1=000 MISC2=0
+Cmd: CAMERA Update NAME=MeshViewCam X=0 Y=0 MESH="arrow" REN=18 FLAGS=8704 HWND=3072 MISC1=000 MISC2=0
+Cmd: CAMERA Update NAME=MeshViewCam X=0 Y=0 MESH="arrow" REN=18 FLAGS=8704 HWND=3072 MISC1=000 MISC2=0
+Cmd: CAMERA Update NAME=MeshViewCam X=0 Y=0 MESH="bolt" REN=18 FLAGS=8704 HWND=3072 MISC1=000 MISC2=0
+Cmd: CAMERA Update NAME=MeshViewCam X=0 Y=0 MESH="bolt" REN=18 FLAGS=8704 HWND=3072 MISC1=000 MISC2=0
+Cmd: SETPAUSE 0
+Cmd: Fire
+Cmd: AltFire
+Cmd: AltFire
+Cmd: SETPAUSE 1
+Cmd: CAMERA CLOSE NAME=MeshViewCam
+Log: Missing name
+Log: Closed viewport
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: SETPAUSE 0
+Cmd: Fire
+Cmd: AltFire
+Cmd: AltFire
+Cmd: Fire
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Log: Received SC_MONITORPOWER
+Log: Received SC_MONITORPOWER
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: SETPAUSE 1
+Cmd: SETPAUSE 0
+Cmd: AltFire
+Cmd: Fire
+Cmd: SETPAUSE 1
+Cmd: MaybeAutoSave
+Cmd: SETPAUSE 0
+Cmd: Fire
+Cmd: AltFire
+Cmd: Fire
+Cmd: SETPAUSE 1
+Cmd: SETCURRENTCLASS CLASS=JazzPlayer
+Cmd: SETCURRENTCLASS CLASS=JazzPlayer
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: CAMERA OPEN HWND=1172 X=0 Y=0 XR=356 YR=335 NAME="Standard1V"
+Cmd: CAMERA OPEN HWND=1172 X=365 Y=0 XR=380 YR=335 NAME="Standard2V"
+Cmd: CAMERA OPEN HWND=1172 X=0 Y=345 XR=356 YR=334 NAME="Standard3V"
+DevAudio: Galaxy SetViewport: Standard3V
+Cmd: CAMERA OPEN HWND=1172 X=365 Y=345 XR=380 YR=334 NAME="Standard4V"
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: SCRIPT MAKE
+Warning: Parsing JazzPlayer
+Warning: Parsing TestJazzPlayer
+Warning: Parsing JazzJackrabbit
+Warning: Parsing Jazz
+Warning: Parsing JazzRVehicle
+Warning: Parsing JazzCamControl
+Warning: Parsing DudeJazz
+Warning: Compiling JazzPlayer
+Log: Error in JazzPlayer, Line 1706: Call to 'abs': type mismatch in parameter 1
+
+Cmd: MaybeAutoSave
+Cmd: SCRIPT MAKE
+Warning: Parsing JazzPlayer
+Warning: Parsing TestJazzPlayer
+Warning: Parsing JazzJackrabbit
+Warning: Parsing Jazz
+Warning: Parsing JazzRVehicle
+Warning: Parsing JazzCamControl
+Warning: Parsing DudeJazz
+Warning: Compiling JazzPlayer
+Warning: Compiling TestJazzPlayer
+Warning: Compiling JazzJackrabbit
+Warning: Compiling Jazz
+Warning: Compiling JazzRVehicle
+Warning: Compiling JazzCamControl
+Warning: Compiling DudeJazz
+Warning: Compiling JazzPawn
+Warning: Compiling JazzThinker
+Warning: Compiling BlueWater
+Warning: Compiling TeamBattleMode
+Warning: Compiling LeaderOfThePack
+Warning: Compiling TreasureHunt
+Warning: Compiling LevelPrecipitationManager
+Warning: Compiling JazzTeleportEvent
+Warning: Compiling TreasureHuntExit
+Warning: Compiling JazzMenu
+Warning: Compiling JazzAudioMenu
+Warning: Compiling JazzMultiplayerCharacterSelectMenu
+Warning: Compiling JazzControlMenu
+Warning: Compiling JazzHUD
+Warning: Compiling JazzEventMessage
+Warning: Compiling TutorialDisplay
+Warning: Compiling JazzWeapon
+Warning: Compiling JazzItem
+Warning: Compiling JazzWeaponCell
+Warning: Compiling JazzNormalCell
+Warning: Compiling MysteryCell
+Warning: Compiling JazzVehicle
+Warning: Compiling HangGlider
+Warning: Compiling SpaceShip
+Warning: Compiling AirShip
+Warning: Compiling SnowBoard
+Warning: Compiling RocketBoard
+Warning: Compiling FlyingSnowBoard
+Warning: Compiling PoisonCarrot
+Warning: Compiling HealthCarrot
+Warning: Compiling JazzCoin
+Warning: Compiling JazzWeaponPowerup
+Warning: Compiling Jazz3Gem
+Warning: Compiling JazzTreasureKey
+Warning: Compiling HuntGem
+Warning: Compiling JazzWeaponPower
+Warning: Compiling JazzStoneShard
+Warning: Compiling JazzIceGrenade
+Warning: Compiling JazzBubble
+Warning: Compiling JazzStone
+Warning: Compiling JazzNapalm
+Warning: Compiling JazzIce
+Warning: Compiling NewInventoryDisplay
+Warning: Compiling JazzMoveControl
+Warning: Compiling CTFFlag
+Warning: Compiling GlowingPurchaseObject
+Warning: Compiling PurchaseCarrot
+Warning: Compiling BuyItemTrigger
+Warning: Compiling JazzGemTrigger
+Warning: Compiling JazzSign
+Warning: Compiling Springboard
+Warning: Compiling JazzConsole
+Log: Success: Compiled 20711 line(s), 1035 statement(s).
+
+Cmd: MaybeAutoSave
+Cmd: OBJ SAVEPACKAGE PACKAGE=CalyGame FILE="CalyGame.u"
+Log: Unloading: Package CalyGame
+Log: Save=5680.561539
+Log: Moving 'Save.tmp' to 'CalyGame.u'
+Cmd: HOOK PLAYMAP
+Cmd: MAP SAVE FILE=..\Maps\Autoplay.unr
+Log: Unloading: Package MyLevel
+Log: Save=323.022372
+Log: Moving '..\Maps\Save.tmp' to '..\Maps\Autoplay.unr'
+Log: LaunchURL Unreal.exe Autoplay.unr HWND=4040 -log
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: SCRIPT MAKE
+Warning: Parsing JazzPlayer
+Warning: Parsing TestJazzPlayer
+Warning: Parsing JazzJackrabbit
+Warning: Parsing Jazz
+Warning: Parsing JazzRVehicle
+Warning: Parsing JazzCamControl
+Warning: Parsing DudeJazz
+Warning: Compiling JazzPlayer
+Warning: Compiling TestJazzPlayer
+Warning: Compiling JazzJackrabbit
+Warning: Compiling Jazz
+Warning: Compiling JazzRVehicle
+Warning: Compiling JazzCamControl
+Warning: Compiling DudeJazz
+Warning: Compiling JazzPawn
+Warning: Compiling JazzThinker
+Warning: Compiling BlueWater
+Warning: Compiling TeamBattleMode
+Warning: Compiling LeaderOfThePack
+Warning: Compiling TreasureHunt
+Warning: Compiling LevelPrecipitationManager
+Warning: Compiling JazzTeleportEvent
+Warning: Compiling TreasureHuntExit
+Warning: Compiling JazzMenu
+Warning: Compiling JazzAudioMenu
+Warning: Compiling JazzMultiplayerCharacterSelectMenu
+Warning: Compiling JazzControlMenu
+Warning: Compiling JazzHUD
+Warning: Compiling JazzEventMessage
+Warning: Compiling TutorialDisplay
+Warning: Compiling JazzWeapon
+Warning: Compiling JazzItem
+Warning: Compiling JazzWeaponCell
+Warning: Compiling JazzNormalCell
+Warning: Compiling MysteryCell
+Warning: Compiling JazzVehicle
+Warning: Compiling HangGlider
+Warning: Compiling SpaceShip
+Warning: Compiling AirShip
+Warning: Compiling SnowBoard
+Warning: Compiling RocketBoard
+Warning: Compiling FlyingSnowBoard
+Warning: Compiling PoisonCarrot
+Warning: Compiling HealthCarrot
+Warning: Compiling JazzCoin
+Warning: Compiling JazzWeaponPowerup
+Warning: Compiling Jazz3Gem
+Warning: Compiling JazzTreasureKey
+Warning: Compiling HuntGem
+Warning: Compiling JazzWeaponPower
+Warning: Compiling JazzStoneShard
+Warning: Compiling JazzIceGrenade
+Warning: Compiling JazzBubble
+Warning: Compiling JazzStone
+Warning: Compiling JazzNapalm
+Warning: Compiling JazzIce
+Warning: Compiling NewInventoryDisplay
+Warning: Compiling JazzMoveControl
+Warning: Compiling CTFFlag
+Warning: Compiling GlowingPurchaseObject
+Warning: Compiling PurchaseCarrot
+Warning: Compiling BuyItemTrigger
+Warning: Compiling JazzGemTrigger
+Warning: Compiling JazzSign
+Warning: Compiling Springboard
+Warning: Compiling JazzConsole
+Log: Success: Compiled 20747 line(s), 1035 statement(s).
+
+Cmd: MaybeAutoSave
+Cmd: OBJ SAVEPACKAGE PACKAGE=CalyGame FILE="CalyGame.u"
+Log: Save=2844.133364
+Log: Moving 'Save.tmp' to 'CalyGame.u'
+Cmd: MaybeAutoSave
+Cmd: HOOK PLAYMAP
+Cmd: MAP SAVE FILE=..\Maps\Autoplay.unr
+Log: Save=142.881255
+Log: Moving '..\Maps\Save.tmp' to '..\Maps\Autoplay.unr'
+Log: LaunchURL Unreal.exe Autoplay.unr HWND=4040 -log
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Cmd: MaybeAutoSave
+Log: Closed viewport
+DevAudio: Galaxy SetViewport: NULL
+Log: Closed viewport
+Log: Closed viewport
+Log: Closed viewport
+Exit: appPreExit
+Log: Purging garbage
+Log: Unbound to Editor.dll
+Log: Unbound to Core.dll
+Log: Unbound to Engine.dll
+Log: Unbound to Window.dll
+Log: Unloading: Package Editor
+Log: Unloading: Package Core
+Log: Unloading: Package Engine
+Exit: Editor shut down
+Log: Unbound to Galaxy.dll
+DevAudio: Galaxy SetViewport: NULL
+Exit: Galaxy shut down
+Exit: Transaction tracking system shut down
+Log: Unloading: Package JazzFonts
+Log: Unbound to Fire.dll
+Log: Unloading: Package Fire
+Log: Unbound to IpDrv.dll
+Log: Unloading: Package IpDrv
+Log: Unloading: Package IpServer
+Log: Unloading: Package JazzSounds
+Log: Unloading: Package JazzSpeech
+Log: Unloading: Package JazzArt
+Log: Unloading: Package JazzObjectoids
+Log: Unloading: Package JazzDecoration
+Log: Unloading: Package JWindow
+Log: Unloading: Package JazzConsole
+Log: Unloading: Package JazzAnimated
+Log: Unloading: Package JazzMultiPlayer
+Log: Unloading: Package Jazz3
+Log: Unloading: Package JazzyTextures
+Log: Unloading: Package JazzEnemy
+Log: Unloading: Package JazzPlatform
+Log: Unloading: Package JazzRace
+Log: Unloading: Package DudeGame
+Log: Unbound to WinDrv.dll
+Exit: Windows client shut down
+Log: Unbound to Render.dll
+Exit: Lighting subsystem shut down
+Exit: Rendering shut down
+Log: Unbound to SoftDrv.dll
+Log: Unloading: Package Jazzytextures2
+Exit: Object subsystem successfully closed.
+Exit: appExit
+Uninitialized: Name subsystem shut down
+Uninitialized: Allocation checking disabled
+Uninitialized: Log file closed, 06/12/99 03:40:29

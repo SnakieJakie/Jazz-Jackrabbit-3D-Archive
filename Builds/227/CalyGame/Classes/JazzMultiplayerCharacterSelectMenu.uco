@@ -1,0 +1,181 @@
+//=============================================================================
+// JazzMultiplayerCharacterSelectMenu.
+//=============================================================================
+class JazzMultiplayerCharacterSelectMenu expands JazzMenu;
+
+var		int		MenuSoundNum;
+var()	sound	SwooshMenuInSound;
+	
+var		int		MenuRightSide;
+
+var string[64] ClassString;
+var string[128] StartMap;
+var string[64] PreferredSkin;
+
+var() class PlayerClasses[8];
+
+
+// Currently assume initial values are defaults
+//
+function PostBeginPlay()
+{
+	ResetMenu();
+}
+
+function ResetMenu()
+{
+	// Plays sounds as menus move across the screen
+	MenuSoundNum = 0;
+	MenuExistTime = 0;
+}
+
+function bool ProcessSelection()
+{
+	local Menu ChildMenu;
+	local int p;
+
+	ChildMenu = None;
+	if ( ! bBegun )
+	{
+		PlayEnterSound();
+		bBegun = true;
+	}
+
+	if (Selection > 0)
+	{
+		bExitAllMenus = true;
+		
+		ClassString = "Jazz3.Jazz";
+		PreferredSkin = "Jazz3.Jjazz_01";
+		
+		switch (Selection)
+		{
+		case 0:
+		case 1:
+			ClassString = "Jazz3.Jazz";
+			break;
+		}
+
+		ClassString = "CalyGame.JazzJackrabbit";
+		PreferredSkin = "";
+		
+		// 220 Version
+		StartMap = StartMap
+					$"?Class="$ClassString
+					$"?Skin="$PreferredSkin
+					$"?Name="$PlayerOwner.PlayerReplicationInfo.PlayerName		// 220 Version
+					$"?Team="$PlayerOwner.PlayerReplicationInfo.TeamName
+					$"?Rate="$PlayerOwner.NetSpeed;
+
+		//Log("Character Select : "$ClassString);
+		//Log("StartMap) "$StartMap);
+
+		SaveConfigs();
+		PlayerOwner.ClientTravel(StartMap, TRAVEL_Absolute, false);
+		return true;
+	}
+	else
+		return false;
+
+	if ( ChildMenu != None )
+	{
+		// Reset Menu Movement in preparation for return to this menu
+		ResetMenu();
+	
+		HUD(Owner).MainMenu = ChildMenu;
+		ChildMenu.ParentMenu = self;
+		ChildMenu.PlayerOwner = PlayerOwner;
+	}
+	return true;
+}
+function DrawMenu (canvas Canvas)
+{
+	local int	i,x,MinX;
+	local int	spacing,StartY;
+	
+	MenuStart(Canvas);
+	
+	MenuRightSide = Canvas.SizeX;
+	
+	DrawBackground(Canvas);
+	
+	Canvas.DrawColor = Canvas.Default.DrawColor;
+	DrawTitle(Canvas);	// 220 Version
+
+	spacing = 35;
+	StartY = 20;
+	Canvas.Font = Canvas.BigFont;
+
+	if (Canvas.ClipY>384)
+	{
+		Canvas.Font = Canvas.LargeFont;
+		spacing = 45;
+		StartY = 60;
+	}
+
+	for (i=0; i<=MenuLength; i++)
+	{
+		SetFontBrightness(Canvas, (i == Selection - 1) );
+		x = (MenuExistTime*500)-200-(i*40);
+		if (x>20) x=20;
+		
+		// Check if menu across x threshold point to make a sound
+		if ((x>-50) && (MenuSoundNum<i+1))
+		{
+			PlayerOwner.PlaySound(SwooshMenuInSound);
+			MenuSoundNum = i+1;
+		}
+		
+		// Menu is ready once all motion done
+		if ((x>=20) && (i>=MenuLength))
+			bMenuReadyForInput = true;
+		
+		TextRight(Canvas, MenuRightSide-x,50 + Spacing * i, MenuList[i]);
+		
+		/*if (Canvas.ClipY>384)
+		Canvas.SetPos(MenuRightSide-x-Len(MenuList[i])*17, 50 + Spacing * i);
+		else
+		Canvas.SetPos(MenuRightSide-x-Len(MenuList[i])*10, 50 + Spacing * i);
+		
+		Canvas.DrawText(MenuList[i], false);*/
+	}
+	
+	Canvas.DrawColor = Canvas.Default.DrawColor;
+	
+	MenuEnd(Canvas);
+}
+
+// Background
+//
+function DrawBackGround(canvas Canvas)
+{
+	local int Y,MaxY;
+
+	Canvas.bNoSmooth = True;
+	
+	MaxY = Canvas.ClipY;
+	
+	y = (MenuExistTime*MaxY*2);
+	if (y>MaxY) y=MaxY;
+	
+	Canvas.Style = 1;
+	Canvas.SetPos(MenuRightSide-75,MaxY-y);
+	Canvas.DrawColor.r = 50;
+	Canvas.DrawColor.g = 50;
+	Canvas.DrawColor.b = 50;
+	Canvas.DrawPattern(texture'JSeaweed1',75,y,1);
+	Canvas.Style = 4;
+	Canvas.SetPos(MenuRightSide-85,MaxY-y);
+	Canvas.DrawPattern(texture'Straw2',10,y,1);
+	Canvas.Style = 1;
+	Canvas.SetPos(MenuRightSide-100,MaxY-y);
+	Canvas.DrawPattern(texture'JSeaweed1',15,y,1);
+}
+
+defaultproperties
+{
+     PlayerClasses(0)=Class'Jazz3.Jazz'
+     MenuLength=1
+     MenuList(0)="JAZZ JACKRABBIT"
+     MenuTitle="SELECt CHARACTER"
+}

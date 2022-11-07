@@ -1,0 +1,6 @@
+[Public]
+Object=(Name=Trenches.ITTIntoTheTrenches,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=Trenches.ITTConsole,Class=Class,MetaClass=Engine.Console)
+
+[ITTConsole]
+ClassCaption=Into the Trenches console

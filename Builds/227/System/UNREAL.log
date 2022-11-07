@@ -1,0 +1,212 @@
+Log: Log file open, 11/05/22 17:58:22
+Init: Name subsystem initialized
+Init: Detected: Microsoft Windows NT 6.2 (Build: 9200)
+Init: Version: 224
+Init: Compiled: May  1 1999 17:57:07
+Init: Command line: 
+Init: Base directory: C:\Users\Jakie\Documents\My Games\Jazz3\Jazz3\Builds\Jazz224\System\
+Init: Character set: Unicode
+Log: Bound to Engine.dll
+Log: Bound to Core.dll
+Log: Bound to Window.dll
+Init: Object subsystem initialized
+Init: Memory total: Phys=2097151K Pagef=4194303K Virt=2097024K
+Init: Working set: 32000 / 159000
+Init: CPU Speed=2694.914251 MHz
+Init: CPU Page size=4096, Processors=4
+Init: CPU Detected: Unknown processor (AuthenticAMD)
+Init: CPU Features: MMX CMov FPU TimeStamp
+Log: Loading: Package Engine
+Log: Loading: Package Core
+Log: Bound to Galaxy.dll
+Init: Galaxy is using DirectSound
+Init: Galaxy initialized
+Init: Unreal engine initialized
+Log: Bound to WinDrv.dll
+Init: Mouse info: 6 10 1
+Log: joyGetDevCaps failed
+Init: Client initialized
+Log: Bound to Render.dll
+Init: Lighting subsystem initialized
+Init: Rendering initialized
+Log: LoadMap: Entry
+Log: Loading: Package Entry
+Log: Loading: Package JazzyTextures
+Log: Bound to Fire.dll
+Log: Loading: Package Fire
+Log: Loading: Package CalyGame
+Log: Loading: Package JazzArt
+Log: Loading: Package JazzObjectoids
+Log: Loading: Package JazzSounds
+Log: Loading: Package JazzConsole
+Log: Loading: Package JWindow
+Log: Loading: Package JazzFonts
+Log: Loading: Package JazzDecoration
+Log: Loading: Package JazzSpeech
+Log: Loading: Package JazzAnimated
+Log: Loading: Package JazzMultiPlayer
+Log: Loading: Package Jazz3
+Log: Game class is 'JazzSinglePlayer'
+Log: Bringing Level Entry.MyLevel up for play...
+ScriptLog: InitGame: 
+ScriptLog: Difficulty 1
+ScriptLog: Remote Administration with Password 
+ScriptLog: Base Mutator is Entry.Mutator0
+DevAudio: Galaxy SetViewport: NULL
+Log: Browse: Jazz3D.unr?Name=Player?Class=DudeGame.DudeJazz?Skin=Jazz3.Jjazz_01?Team=
+Log: LoadMap: Jazz3D.unr?Name=Player?Class=DudeGame.DudeJazz?Skin=Jazz3.Jjazz_01?Team=
+Log: Loading: Package Jazz3D
+Log: Loading: Package Jazzytextures2
+Log: Loading: Package JazzEnemy
+Log: Loading: Package Jazz3Title
+Log: Collecting garbage
+Log: Purging garbage
+Log: Game class is 'JazzIntro'
+Log: Bringing Level Jazz3D.MyLevel up for play...
+ScriptLog: InitGame: ?Name=Player?Class=DudeGame.DudeJazz?Skin=Jazz3.Jjazz_01?Team=
+ScriptLog: Difficulty 1
+ScriptLog: Remote Administration with Password 
+ScriptLog: Base Mutator is Jazz3D.Mutator1
+Init: Initialized moving brush tracker for Level Jazz3D.MyLevel
+DevAudio: Galaxy SetViewport: NULL
+Log: Loading: Package DudeGame
+ScriptLog: Login: Player
+ScriptWarning: DudeJazz Jazz3D.DudeJazz0 (Function CalyGame.JazzPlayer.ChangeLives:000B) Accessed None
+Log: Possessed PlayerPawn: DudeJazz Jazz3D.DudeJazz0
+ScriptLog: All inventory from Player is accepted
+Init: Input system initialized for WindowsViewport0
+Log: Opened viewport
+Warning: Failed to load 'GlideDrv': Can't find file for package 'GlideDrv'
+Warning: Failed to load 'Class GlideDrv.GlideRenderDevice': Can't find file for package 'GlideDrv'
+Warning: Can't find file for package 'GlideDrv'
+Warning: Can't find file for package 'GlideDrv'
+Log: Bound to SoftDrv.dll
+DevAudio: Galaxy SetViewport: WindowsViewport0
+Init: Game engine initialized
+Log: Startup time: 1.046995 seconds
+ScriptWarning: JazzFairy Jazz3D.JazzFairy0 (State CalyGame.JazzFairy.Wander:0171) Accessed None
+ScriptWarning: JazzFairy Jazz3D.JazzFairy0 (State CalyGame.JazzFairy.Wander:0179) Attempt to assigned variable through None
+ScriptLog: TrailActivate)
+ScriptLog: TrailActivate)
+ScriptLog: HidePlayer) Jazz3D.DudeJazz0
+DevMusic: Load music: Music Jazz3Title.Title
+ScriptWarning: TimeDemoInterpolationPoint Jazz3D.TimeDemoInterpolationPoint0 (Function Engine.TimeDemoInterpolationPoint.InterpolateEnd:0006) Accessed None
+ScriptWarning: JazzFairy Jazz3D.JazzFairy0 (State CalyGame.JazzFairy.Wander:0012) Accessed None
+ScriptWarning: JazzFairy Jazz3D.JazzFairy0 (State CalyGame.JazzFairy.Wander:001A) Attempt to assigned variable through None
+ScriptLog: Console entering Menuing
+Log: AttemptFullscreen
+Warning: Failed to load 'GlideDrv': Can't find file for package 'GlideDrv'
+Warning: Failed to load 'Class GlideDrv.GlideRenderDevice': Can't find file for package 'GlideDrv'
+Warning: Can't find file for package 'GlideDrv'
+Warning: Can't find file for package 'GlideDrv'
+Log: AttemptFullscreen
+Warning: Failed to load 'GlideDrv': Can't find file for package 'GlideDrv'
+Warning: Failed to load 'Class GlideDrv.GlideRenderDevice': Can't find file for package 'GlideDrv'
+Warning: Can't find file for package 'GlideDrv'
+Warning: Can't find file for package 'GlideDrv'
+Log: AttemptFullscreen
+Warning: Failed to load 'GlideDrv': Can't find file for package 'GlideDrv'
+Warning: Failed to load 'Class GlideDrv.GlideRenderDevice': Can't find file for package 'GlideDrv'
+Warning: Can't find file for package 'GlideDrv'
+Warning: Can't find file for package 'GlideDrv'
+Log: AttemptFullscreen
+Warning: Failed to load 'GlideDrv': Can't find file for package 'GlideDrv'
+Warning: Failed to load 'Class GlideDrv.GlideRenderDevice': Can't find file for package 'GlideDrv'
+Warning: Can't find file for package 'GlideDrv'
+Warning: Can't find file for package 'GlideDrv'
+ScriptLog: Console leaving Menuing
+ScriptWarning: TimeDemoInterpolationPoint Jazz3D.TimeDemoInterpolationPoint1 (Function Engine.TimeDemoInterpolationPoint.InterpolateEnd:0006) Accessed None
+ScriptLog: Console entering Menuing
+ScriptLog: StartMap) JMPClover.unr?Class=DudeGame.DudeJazz?Skin=?Name=Player?Team=?Rate=5000
+Log: SetClientTravel: JMPClover.unr?Class=DudeGame.DudeJazz?Skin=?Name=Player?Team=?Rate=5000 0
+ScriptLog: Console leaving Menuing
+Log: Browse: JMPClover.unr?Class=DudeGame.DudeJazz?Skin=?Name=Player?Team=?Rate=5000
+Log: LoadMap: JMPClover.unr?Class=DudeGame.DudeJazz?Skin=?Name=Player?Team=?Rate=5000
+DevAudio: Galaxy SetViewport: WindowsViewport0
+Warning: Failed to load 'JMPClover.unr': Can't find file 'JMPClover.unr'
+Warning: Failed to load 'Level None.MyLevel': Can't find file 'JMPClover.unr'
+ScriptWarning: TimeDemoInterpolationPoint Jazz3D.TimeDemoInterpolationPoint2 (Function Engine.TimeDemoInterpolationPoint.InterpolateEnd:0006) Accessed None
+ScriptWarning: JazzFairy Jazz3D.JazzFairy0 (State CalyGame.JazzFairy.Wander:0012) Accessed None
+ScriptWarning: JazzFairy Jazz3D.JazzFairy0 (State CalyGame.JazzFairy.Wander:001A) Attempt to assigned variable through None
+ScriptWarning: TimeDemoInterpolationPoint Jazz3D.TimeDemoInterpolationPoint3 (Function Engine.TimeDemoInterpolationPoint.InterpolateEnd:0006) Accessed None
+ScriptWarning: JazzFairy Jazz3D.JazzFairy0 (State CalyGame.JazzFairy.Wander:0012) Accessed None
+ScriptWarning: JazzFairy Jazz3D.JazzFairy0 (State CalyGame.JazzFairy.Wander:001A) Attempt to assigned variable through None
+ScriptLog: Console entering Menuing
+ScriptLog: StartMap) JMPClover.unr?Class=DudeGame.DudeJazz?Skin=?Name=Player?Team=?Rate=5000
+Log: SetClientTravel: JMPClover.unr?Class=DudeGame.DudeJazz?Skin=?Name=Player?Team=?Rate=5000 0
+ScriptLog: Console leaving Menuing
+Log: Browse: JMPClover.unr?Class=DudeGame.DudeJazz?Skin=?Name=Player?Team=?Rate=5000
+Log: LoadMap: JMPClover.unr?Class=DudeGame.DudeJazz?Skin=?Name=Player?Team=?Rate=5000
+DevAudio: Galaxy SetViewport: WindowsViewport0
+Warning: Failed to load 'JMPClover.unr': Can't find file 'JMPClover.unr'
+Warning: Failed to load 'Level None.MyLevel': Can't find file 'JMPClover.unr'
+ScriptWarning: TimeDemoInterpolationPoint Jazz3D.TimeDemoInterpolationPoint4 (Function Engine.TimeDemoInterpolationPoint.InterpolateEnd:0006) Accessed None
+ScriptWarning: JazzFairy Jazz3D.JazzFairy0 (State CalyGame.JazzFairy.Wander:0012) Accessed None
+ScriptWarning: JazzFairy Jazz3D.JazzFairy0 (State CalyGame.JazzFairy.Wander:001A) Attempt to assigned variable through None
+ScriptWarning: JazzCoin Jazz3D.Jazzcoin0 (Function CalyGame.JazzCoin.DoPickupEffect:0078) Accessed None
+ScriptWarning: TimeDemoInterpolationPoint Jazz3D.TimeDemoInterpolationPoint5 (Function Engine.TimeDemoInterpolationPoint.InterpolateEnd:0006) Accessed None
+ScriptWarning: TimeDemoInterpolationPoint Jazz3D.TimeDemoInterpolationPoint6 (Function Engine.TimeDemoInterpolationPoint.InterpolateEnd:0006) Accessed None
+ScriptWarning: JazzFairy Jazz3D.JazzFairy0 (State CalyGame.JazzFairy.Wander:0012) Accessed None
+ScriptWarning: JazzFairy Jazz3D.JazzFairy0 (State CalyGame.JazzFairy.Wander:001A) Attempt to assigned variable through None
+ScriptWarning: JazzCoin Jazz3D.Jazzcoin2 (Function CalyGame.JazzCoin.DoPickupEffect:0078) Accessed None
+ScriptWarning: TimeDemoInterpolationPoint Jazz3D.TimeDemoInterpolationPoint7 (Function Engine.TimeDemoInterpolationPoint.InterpolateEnd:0006) Accessed None
+ScriptWarning: JazzFairy Jazz3D.JazzFairy0 (State CalyGame.JazzFairy.Wander:0012) Accessed None
+ScriptWarning: JazzFairy Jazz3D.JazzFairy0 (State CalyGame.JazzFairy.Wander:001A) Attempt to assigned variable through None
+ScriptWarning: TimeDemoInterpolationPoint Jazz3D.TimeDemoInterpolationPoint8 (Function Engine.TimeDemoInterpolationPoint.InterpolateEnd:0006) Accessed None
+ScriptWarning: JazzFairy Jazz3D.JazzFairy0 (State CalyGame.JazzFairy.Wander:0012) Accessed None
+ScriptWarning: JazzFairy Jazz3D.JazzFairy0 (State CalyGame.JazzFairy.Wander:001A) Attempt to assigned variable through None
+ScriptWarning: TimeDemoInterpolationPoint Jazz3D.TimeDemoInterpolationPoint9 (Function Engine.TimeDemoInterpolationPoint.InterpolateEnd:0006) Accessed None
+ScriptWarning: TimeDemoInterpolationPoint Jazz3D.TimeDemoInterpolationPoint10 (Function Engine.TimeDemoInterpolationPoint.InterpolateEnd:0006) Accessed None
+ScriptLog: Console entering Menuing
+DevAudio: Galaxy SetViewport: NULL
+DevMusic: Unregister music: Music Jazz3Title.Title
+Log: Closed viewport
+Log: All Windows Closed
+Log: appRequestExit(0)
+Exit: appPreExit
+Log: Purging garbage
+Log: Unbound to Engine.dll
+Log: Unbound to Core.dll
+Log: Unbound to Window.dll
+Log: Unloading: Package Engine
+Log: Unloading: Package Core
+Exit: Game engine shut down
+Log: Unbound to Galaxy.dll
+DevAudio: Galaxy SetViewport: NULL
+Exit: Galaxy shut down
+Log: Unbound to WinDrv.dll
+Exit: Windows client shut down
+Log: Unbound to Render.dll
+Exit: Lighting subsystem shut down
+Exit: Rendering shut down
+Log: Unloading: Package Entry
+Log: Unloading: Package JazzyTextures
+Log: Unbound to Fire.dll
+Log: Unloading: Package Fire
+Log: Unloading: Package CalyGame
+Log: Unloading: Package JazzArt
+Log: Unloading: Package JazzObjectoids
+Log: Unloading: Package JazzSounds
+Log: Unloading: Package JazzConsole
+Log: Unloading: Package JWindow
+Log: Unloading: Package JazzFonts
+Log: Unloading: Package JazzDecoration
+Log: Unloading: Package JazzSpeech
+Log: Unloading: Package JazzAnimated
+Log: Unloading: Package JazzMultiPlayer
+Log: Unloading: Package Jazz3
+Log: Unloading: Package Jazz3D
+Log: Unloading: Package Jazzytextures2
+Log: Unloading: Package JazzEnemy
+Log: Unloading: Package Jazz3Title
+Init: Shut down moving brush tracker for Level Jazz3D.MyLevel
+Log: Unloading: Package DudeGame
+Log: Unbound to SoftDrv.dll
+Exit: Object subsystem successfully closed.
+Exit: appExit
+Uninitialized: Name subsystem shut down
+Uninitialized: Memory Allocation Status
+Uninitialized: Curr Memory  0.272M /  0.059M
+Uninitialized: Peak Memory  25.444M /  26.879M
+Uninitialized: Allocs           1 Current /  2021131 Total
+Uninitialized: Log file closed, 11/05/22 17:59:10

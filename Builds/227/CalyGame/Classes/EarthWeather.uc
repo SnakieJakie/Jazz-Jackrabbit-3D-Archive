@@ -1,0 +1,66 @@
+//=============================================================================
+// EarthWeather.
+//=============================================================================
+class EarthWeather expands LevelWeatherManager;
+
+// Temperate earth-style weather patterns.
+//
+//
+
+defaultproperties
+{
+     LengthOfOneDay=3.000000
+     CloudyDayBrightness=115
+     CloudyNightBrightness=20
+     RateOfSound=3
+     StormPattern(0)=0.400000
+     StormPattern(1)=0.700000
+     StormPattern(2)=0.200000
+     StormPattern(3)=0.800000
+     StormPattern(4)=0.900000
+     StormPattern(5)=0.600000
+     StormPattern(6)=0.300000
+     StormPattern(7)=0.100000
+     StormPattern(8)=0.800000
+     StormPattern(9)=0.300000
+     StormPattern(10)=0.900000
+     StormStrength(0)=15
+     StormStrength(1)=4
+     StormStrength(2)=8
+     StormStrength(3)=10
+     StormStrength(4)=12
+     StormStrength(5)=30
+     StormStrength(6)=18
+     StormStrength(7)=10
+     StormStrength(8)=4
+     StormStrength(9)=8
+     StormStrength(10)=3
+     StormPatternLength=10
+     TempSummer=90
+     TempWinter=20
+     TempPattern(0)=0.100000
+     TempPattern(1)=0.200000
+     TempPattern(2)=0.800000
+     TempPattern(3)=1.200000
+     TempPattern(4)=0.200000
+     TempPattern(5)=0.600000
+     TempPattern(6)=0.800000
+     TempPattern(7)=1.000000
+     TempPattern(8)=0.300000
+     TempPattern(9)=0.700000
+     TempPattern(10)=0.500000
+     TempPattern(11)=0.200000
+     TempStrength(0)=-40
+     TempStrength(1)=-25
+     TempStrength(2)=-5
+     TempStrength(3)=10
+     TempStrength(4)=15
+     TempStrength(5)=5
+     TempStrength(6)=1
+     TempStrength(7)=-3
+     TempStrength(8)=-9
+     TempStrength(9)=-11
+     TempStrength(10)=-18
+     TempStrength(11)=-31
+     TempPatternLength=11
+}

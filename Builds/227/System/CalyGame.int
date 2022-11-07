@@ -1,0 +1,243 @@
+[JazzPlayer]
+TutorialTitle[0]=Dream Cell
+TutorialText[0]=Dream cells can be found throughout the game that alter your weapon, giving it different powers depending on that cell.  Cells will gain power over time, becoming more powerful.
+TutorialTitle[1]=Weapons
+TutorialText[1]=Weapons are used to attack!  The current weapon in use is displayed as an icon to the top-left alongside the cell in use.
+TutorialTitle[2]=Rocket Board
+TutorialText[2]=Jump on and skim away at amazing speeds!  Forward accelerates in the direction you're facing.  When tired of skimming around, press jump and ditch it behind to kick some shell!
+TutorialTitle[3]=HangGlider
+TutorialText[3]=Swoop down on those turtles from above!  The jump button pushes a little into the air to get started.  Pressing up on the joystick tilts the nose of the glider downward to accelerate and swoop down while down pulls the glider's nose upward to decelerate and drift down slowly backwards.
+TutorialTitle[4]=Secret Level Gem
+TutorialText[4]=Return with a blue gem from this level!
+
+[JazzNewGameMenu]
+NewGameStartMap=JMPClover.unr
+
+[JazzMenu]
+NoneText=NONE
+
+[JazzMainMenu]
+MenuLength=5
+MenuList[0]=NEW GAME
+MenuList[1]=SAVE GAME
+MenuList[2]=LOAD GAME
+MenuList[3]=OPTIONS
+MenuList[4]=QUIT
+
+[JazzQuitGameMenu]
+TitleMap=Jazz3D.UNR
+MenuLength=3
+MenuList[0]=RETURN
+MenuList[1]=QUIT GAME
+MenuList[2]=EXIT JAZZ 3
+MenuTitle=QUIT JAZZ 3?
+
+[JazzOptions2Menu]
+MenuLength=5
+MenuList[0]=VIDEO
+MenuList[1]=AUDIO
+MenuList[2]=CONTROL
+MenuList[3]=ADVANCED
+MenuList[4]=BACK
+
+[JazzAudioMenu]
+MenuLength=4
+MenuTitle=AUDIO
+MenuList[0]=MUSIC VOLUME
+MenuList[1]=SOUND VOLUME
+MenuList[2]=SOUND QUALITY
+MenuList[3]=BACK
+TxtLow=LOW
+TxtHigh=HIGH
+
+[JazzVideoMenu]
+MenuLength=5
+MenuTitle=VIDEO
+MenuList[0]=BRIGHTNESS
+MenuList[1]=RESOLUTION
+MenuList[2]=TEXTURE DETAIL
+MenuList[3]=TOGGLE FULLSCREEN MODE
+MenuList[4]=BACK
+TxtLow=LOW
+TxtHigh=HIGH
+TxtRoaming=ROAMING
+TxtFixed=FIXED
+
+[JazzControlMenu]
+MenuLength=3
+MenuTitle=CONTROL
+CameraName[0]=ROAMING
+CameraName[1]=CHASE
+CameraName[2]=ROAMING
+MenuList[0]=JOYSTICK
+MenuList[1]=CAMERA
+MenuList[2]=CHANGE CONTROLS
+MenuList[3]=BACK
+
+[JazzQuitMenu]
+MenuLength=2
+
+[JazzMultiplayerCharacterSelectMenu]
+MenuLength=3
+MenuList[0]=CHARACTER
+MenuList[1]=SKIN
+MenuList[2]=START
+MenuTitle=SELECT CHARACTER
+PlayerClassNum=1
+PlayerClasses[0]=DudeGame.DudeJazz
+PlayerClassName[0]=JAZZ JACKRABBIT
+PlayerSkins1=6
+PlayerSkinsClass1[0]=Jazz3.JJAZZ_01
+PlayerSkinsClass1[1]=Jazz3.JAZZ_BLUE_BB
+PlayerSkinsClass1[2]=Jazz3.JAZZ_GREEN_BB
+PlayerSkinsClass1[3]=Jazz3.JAZZ_GREY_BB
+PlayerSkinsClass1[4]=Jazz3.JAZZ_PURPLE_BB
+PlayerSkinsClass1[5]=Jazz3.JAZZ_RED_BB
+
+[JazzCharacterSelectMenu]
+MenuLength=1
+MenuList[0]=JAZZ JACKRABBIT
+PlayerClasses[0]=DudeGame.DudeJazz
+PlayerSkins  [0]=Jazz3.JJAZZ_01
+MenuList[1]=SPAZ JACKRABBIT
+PlayerClasses[1]=Jazz3.Jazz
+PlayerSkins  [1]=Jazz3.JJAZZ_01
+MenuList[2]=LORI
+PlayerClasses[2]=Jazz3.Jazz
+PlayerSkins  [2]=Jazz3.JJAZZ_01
+MenuTitle=SELECT CHARACTER
+
+[JazzTeamSelectMenu]
+MenuLength=0
+MenuTitle=SELECT TEAM
+MENULIST[0]=NO CHANGE
+
+[JazzDeadMenu]
+MenuLength=4
+MenuList[0]=RESTART LEVEL
+MenuList[1]=LOAD GAME
+MenuList[2]=NEW GAME
+MenuList[3]=QUIT
+
+[JazzTeamGameMenu]
+MenuLength=4
+MenuList[0]=SWITCH TEAM
+MenuList[1]=NEW GAME
+MenuList[2]=OPTIONS
+MenuList[3]=QUIT
+
+[JazzConBattleMode]
+MenuLength=6
+MenuList[0]=GAME SPEED
+MenuList[1]=FLUFF LIMIT
+MenuList[2]=TIME LIMIT
+MenuList[3]=MAX PLAYERS
+MenuList[4]=NUM AI THINKERS
+MenuList[5]=CONFIGURE AI THINKERS
+
+[JazzConTeamBattleMode]
+MenuLength=8
+MenuList[0]=TEAMS
+MenuList[1]=CONFIGURE TEAMS (UNWORKING)
+MenuList[2]=GAME SPEED
+MenuList[3]=FLUFF LIMIT
+MenuList[4]=TIME LIMIT
+MenuList[5]=MAX PLAYERS
+MenuList[6]=NUM AI THINKERS
+MenuList[7]=CONFIGURE AI THINKERS
+
+[JazzConTreasureMode]
+MenuLength=5
+MenuList[0]=GAME SPEED
+MenuList[1]=MAX PLAYERS
+MenuList[2]=NUM AI THINKERS
+MenuList[3]=CONFIGURE AI THINKERS
+
+[JazzIntroMenu]
+MenuLength=4
+MenuList[0]=NEW GAME
+MenuList[1]=LOAD GAME
+MenuList[2]=OPTIONS
+MenuList[3]=QUIT
+
+[JazzJoinGameMenu]
+MenuLength=2
+MenuList[0]=FIND LOCAL SERVERS
+MenuList[1]=CONNECTION SPEED
+
+[JazzKeyboard2Menu]
+MenuLength=9
+MenuList[0]=FIRE
+MenuList[1]=ALT FIRE
+MenuList[2]=INVENTORY
+MenuList[3]=USE ITEM/TALK
+MenuList[4]=NEXT WEAPON
+MenuList[5]=PREV WEAPON
+MenuList[6]=NEXT CELL
+MenuList[7]=PREV CELL
+MenuList[8]=RESET TO DEFAULT
+MenuTitle=ACTION CONTROLS
+
+[JazzKeyboardMenu]
+MenuLength=8
+MenuTitle=MOVEMENT CONTROLS
+MenuList[0]=FORWARD
+MenuList[1]=BACKWARD
+MenuList[2]=TURN LEFT
+MenuList[3]=TURN RIGHT
+MenuList[4]=STRAFE LEFT
+MenuList[5]=STRAFE RIGHT
+MenuList[6]=JUMP
+MenuList[7]=RESET TO DEFAULT
+
+[JazzLoadMenu]
+MenuLength=10
+MenuTitle=LOAD GAME
+
+[JazzSaveMenu]
+MenuLength=10
+MenuTitle=SAVE GAME
+
+[JazzMultiPlayerMenu]
+MenuTitle=MULTIPLAYER GAME
+MenuLength=2
+MenuList[0]=JOIN ANOTHER GAME SERVER
+MenuList[1]=CREATE YOUR OWN SERVER
+
+[JazzNewGameMenu]
+MenuTitle=NEW GAME
+MenuLength=4
+MenuList[0]=SINGLE PLAYER GAME
+MenuList[1]=SINGLE PLAYER BATTLE
+MenuList[2]=MULTIPLAYER BATTLE
+MenuList[3]=BACK
+
+[JazzOptionsMenu]
+MenuLength=4
+MenuList[0]=USE JOYSTICK
+MenuList[1]=CUSTOMIZE MOVEMENT
+MenuList[2]=CUSTOMIZE ACTIONS
+MenuList[3]=ADVANCED OPTIONS
+
+[JazzQuitMenu]
+MenuTitle=QUIT JAZZ 3?
+MenuLength=8
+MenuList[0]=Jazz Jackrabbit 3
+MenuList[1]=
+MenuList[2]=Adventures
+MenuList[3]=of
+MenuList[4]=A
+MenuList[5]=Mean
+MenuList[6]=Green
+MenuList[7]=Hare
+
+[JazzServerMenu]
+MenuLength=5
+MenuList[0]=CHOOSE GAME
+MenuList[1]=CHOOSE MAP
+MenuList[2]=CONFIGURE GAME
+MenuList[3]=START GAME
+MenuList[4]=LAUNCH DEDICATED SERVER
+
+[JazzHUD]
+VersionString=JAZZ 3 DEMO V15
