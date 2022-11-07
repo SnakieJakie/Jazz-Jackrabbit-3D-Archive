@@ -13,4 +13,4 @@ The second is a earlier build that was discovered in 2017. It uses the 224 veris
 
 These are janky alpha builds, so don't expect them to work. :P
 
-This archive does NOT contain the fan patch. You can get it [here](https://www.jazz2online.com/jcf/showthread.php?t=19325)though!
+This archive does NOT contain the fan patch. You can get it [here](https://www.jazz2online.com/jcf/showthread.php?t=19325) though!
