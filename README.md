@@ -1,4 +1,4 @@
-# Jazz-Jackrabbit-3D-Archive
+# Jazz Jackrabbit 3D Archive
 Archive of every known Jazz Jackrabbit 3D version
 
 # History of Jazz 3
